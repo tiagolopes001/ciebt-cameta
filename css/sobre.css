@@ -1,0 +1,51 @@
+.historia{
+	width: 100%;
+	height: auto;
+
+}
+
+.back{
+	background: #0d2d62;
+	height: 200px;
+}
+
+.back-text{
+	height: 50px;
+	color: #fff; 
+
+}
+
+.back-text h1{
+	font-size: 40pt;
+	text-align: center;
+}
+
+.back-text p{
+	font-size: 20pt;
+	text-align: center;
+}
+
+
+.texto-sobre{
+	width: 100%;
+}
+
+.texto-sobre p{
+	line-height: 1.7;
+	font-size: 12pt;
+	font-family: 'Arial';
+	color:gray;
+}
+
+#news{
+	margin-top: 0;
+}
+
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+
+	.text-sobre{
+		margin-bottom: 120px;
+	}
+
+
+}
